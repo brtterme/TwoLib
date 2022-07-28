@@ -1,0 +1,16 @@
+PODS:
+  - TwoLib (0.1.0)
+
+DEPENDENCIES:
+  - TwoLib (from `../`)
+
+EXTERNAL SOURCES:
+  TwoLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TwoLib: b068c7c430c504039a2caa5130a73d9caa60c77e
+
+PODFILE CHECKSUM: dc0f557b3de5d3782d63223f4d2049562fe78ffb
+
+COCOAPODS: 1.11.3

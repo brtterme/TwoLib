@@ -1,0 +1,6 @@
+framework module TwoLib {
+  umbrella header "TwoLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
