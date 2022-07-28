@@ -1,9 +1,11 @@
+source 'https://github.com/brtterme/testSpec.git'
 use_frameworks!
 
 platform :ios, '10.0'
 
 target 'TwoLib_Example' do
-  pod 'TwoLib', :path => '../'
+  pod 'TwoLib'
+  pod 'TestLib'
 
   target 'TwoLib_Tests' do
     inherit! :search_paths
